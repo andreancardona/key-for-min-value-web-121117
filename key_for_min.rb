@@ -7,4 +7,4 @@ def key_for_min_value(name_hash)
       elsif min_value > value
         p name_hash.reduce{ |f, s| f.last > s.last ? s : f }.first
       end
-  end
+
